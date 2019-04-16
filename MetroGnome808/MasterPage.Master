@@ -14,18 +14,22 @@
 
     <style type="text/css">
     
+        body{
+            width: 100%;
+        }
         h1{color:#0060e6;
            background-color: #333;
            text-align:center;
            text-shadow: 0px 0px 5px black !important;
         }
         h1{
-            font-family: 'Harlow Solid';
+            font-family: 'Trench';
             font-size: 6em;
         }
         #navbar {
   overflow: hidden;
   background-color: #333;
+ 
 }
 
 
@@ -36,9 +40,10 @@
   text-align: center;
   padding: 18px;
   text-decoration: none;
+  width: auto;
  ;
 }
-.hover{
+a:hover{
     background-color: royalblue;
 }
 .content {
@@ -63,6 +68,7 @@
   font-family: Calibri;
   font-weight: bold;
   color: white;
+  width: 100%;
 }
 
 
@@ -70,12 +76,14 @@
 margin-left:2%;
 float:left;
 padding: 16px;
+width: 100%:
 
 }
 #footer2{
 margin-right:2%;
 float:right;
 padding: 16px;
+width: 100%;
 }
 
     </style>
@@ -90,9 +98,9 @@ padding: 16px;
             <div id="navbar">
                 <br />
                <h1>MetroGnome808 Music</h1>
-            <a href="#">Home</a>
-            <a href="#">Schedule</a>
-            <a href="#">Contact</a>
+            <a href="Home.aspx">Home</a>
+            <a href="Schedule.aspx">Schedule</a>
+            <a href="Contact.aspx">Contact</a>
             </div>
             
 
