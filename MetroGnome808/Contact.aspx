@@ -41,7 +41,7 @@
             </form>
         </div>
     </nav>
-    <form id="form1" runat="server">
+    
         <div>
             <div id="EmailInput" class="Hide BigSpacing">
             <div class="row">
@@ -82,5 +82,5 @@
             </div>
         </div>
         </div>
-    </form>
+    
 </asp:Content>
