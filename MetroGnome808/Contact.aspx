@@ -20,19 +20,19 @@
                         <div class="form-group">
                             <asp:Label ID="Label1" runat="server" Text="Name" ForeColor="White"></asp:Label>
                             <br />
-                            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="TextBox1" runat="server" ForeColor="Black"></asp:TextBox>
                             <br />
                             <asp:Label ID="Label2" runat="server" Text="Artist Name" ForeColor="White"></asp:Label>
                             <br />
-                            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="TextBox2" runat="server" ForeColor="Black"></asp:TextBox>
                             <br />
                              <asp:Label ID="Label3" runat="server" Text="Email" ForeColor="White"></asp:Label>
                             <br />
-                            <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="TextBox3" runat="server" ForeColor="Black"></asp:TextBox>
                             <br />
                             <asp:Label ID="Label4" runat="server" Text="Message (500 Words Max)" ForeColor="White"></asp:Label>
                             <br />
-                            <asp:TextBox ID="TextBox4" runat="server" Height="213px" Width="361px"></asp:TextBox>
+                            <asp:TextBox ID="TextBox4" runat="server" Height="213px" Width="361px" ForeColor="Black"></asp:TextBox>
                         </div>
                      <asp:Button ID="Button2" runat="server" BackColor="#990099" ForeColor="White" Text="Back" />
                         <asp:Button ID="Button1" runat="server" BackColor="#990099" ForeColor="White" Text="Send Email" />
