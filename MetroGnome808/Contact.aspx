@@ -4,7 +4,9 @@
     body {background-color: #333;}
     p {color: White ;}
     input {color: White;}
-    button {color: White;}
+    button {color: White;
+            font-family: Trench;
+    }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -36,6 +38,9 @@
                         </div>
                      <asp:Button ID="Button2" runat="server" BackColor="#990099" ForeColor="White" Text="Back" />
                         <asp:Button ID="Button1" runat="server" BackColor="#990099" ForeColor="White" Text="Send Email" />
+                    <br />
+                    <br />
+
                     &nbsp;
                 </div>
                 <div class="col-md-2 col-lg-2"></div>
